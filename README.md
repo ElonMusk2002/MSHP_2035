@@ -6,22 +6,21 @@ Welcome to the MSHP_2035 project, AloExpress! This project is a full-stack web a
 
 In this project, we used a variety of technologies and tools to bring it to life. These tools are broken down into two categories: Backend and Frontend.
 
-| Backend                                                                       | Frontend                                                       |
-|------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [![axios](https://img.shields.io/badge/axios-orange)](https://www.npmjs.com/package/axios)       | [![chalk](https://img.shields.io/badge/chalk-green)](https://www.npmjs.com/package/chalk)                     |
-| [![dayjs](https://img.shields.io/badge/dayjs-yellow)](https://www.npmjs.com/package/dayjs)       | [![config](https://img.shields.io/badge/config-orange)](https://www.npmjs.com/package/config)                 |
-| [![faker](https://img.shields.io/badge/faker-blue)](https://www.npmjs.com/package/faker)         | [![cookie-parser](https://img.shields.io/badge/cookie--parser-blue)](https://www.npmjs.com/package/cookie-parser) |
-| [![firebase](https://img.shields.io/badge/firebase-red)](https://firebase.google.com/)       | [![corse](https://img.shields.io/badge/corse-yellow)](https://www.npmjs.com/package/cors)                     |
-| [![pinia](https://img.shields.io/badge/pinia-darkviolet)](https://www.npmjs.com/package/pinia) | [![express](https://img.shields.io/badge/express-red)](https://expressjs.com/)                                |
-| [![vuex](https://img.shields.io/badge/vuex-green)](https://vuex.vuejs.org/)                    | [![express-validator](https://img.shields.io/badge/express--validator-blueviolet)](https://www.npmjs.com/package/express-validator) |
-| [![vue-router](https://img.shields.io/badge/vue--router-blueviolet)](https://router.vuejs.org/) | [![faker](https://img.shields.io/badge/faker-brown)](https://www.npmjs.com/package/faker)                    |
-| [![vuex-argon2](https://img.shields.io/badge/vuex--argon2-brown)](https://www.npmjs.com/package/vuex-argon2) | [![gradient-string](https://img.shields.io/badge/gradient--string-darkviolet)](https://www.npmjs.com/package/gradient-string) |
-|                                                                                  | [![jsonwebtoken](https://img.shields.io/badge/jsonwebtoken-orange)](https://www.npmjs.com/package/jsonwebtoken) |
-|                                                                                  | [![mongodb](https://img.shields.io/badge/mongodb-blue)](https://www.mongodb.com/)                           |
-|                                                                                  | [![mongoose](https://img.shields.io/badge/mongoose-green)](https://mongoosejs.com/)                          |
-|                                                                                  | [![pm2](https://img.shields.io/badge/pm2-blueviolet)](https://pm2.keymetrics.io/)                            |
-|                                                                                  | [![swagger-ui-express](https://img.shields.io/badge/swagger--ui--express-brown)](https://www.npmjs.com/package/swagger-ui-express) |
-|                                                                                  | [![uuid](https://img.shields.io/badge/uuid-red)](https://www.npmjs.com/package/uuid)                         |
+| Backend                                                                        | Frontend                                                            |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| ![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white) | ![Vue.js](https://img.shields.io/badge/-Vue.js-4fc08d?logo=vue.js&logoColor=white)                        |
+| ![Mongoose](https://img.shields.io/badge/-Mongoose-47A248?logo=mongodb&logoColor=white)   | ![Vue Router](https://img.shields.io/badge/-Vue%20Router-ff9900?logo=Vue.js&logoColor=white)           |
+| ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white)     | ![firebase](https://img.shields.io/badge/-Firebase-ffca28?logo=Firebase&logoColor=white)               |
+| ![Argon2](https://img.shields.io/badge/-Argon2-4B0082?logo=security&logoColor=white)     | ![Pinia](https://img.shields.io/badge/-Pinia-35495e?logo=Vue.js&logoColor=white)                      |
+| ![json-web-token](https://img.shields.io/badge/-jsonwebtoken-000000?logo=json-web-tokens&logoColor=white)  | ![axios](https://img.shields.io/badge/-axios-5a54bc?logo=axios&logoColor=white)                        |
+| ![cors](https://img.shields.io/badge/-cors-0000ff?logo=npm&logoColor=white)           | ![Day.js](https://img.shields.io/badge/-Day.js-f6bd14?logo=javascript&logoColor=white)                   |
+| ![Express Validator](https://img.shields.io/badge/-Express%20Validator-00ffff?logo=npm&logoColor=white)        | ![aos](https://img.shields.io/badge/-AOS-29BB89?logo=javascript&logoColor=white)                          |
+| ![swagger-ui-express](https://img.shields.io/badge/-Swagger%20UI%20Express-00bfff?logo=npm&logoColor=white)   | ![vuex](https://img.shields.io/badge/-Vuex-35495e?logo=Vue.js&logoColor=white)                          |
+| ![cookie-parser](https://img.shields.io/badge/-cookie--parser-006400?logo=npm&logoColor=white)   | ![faker.js](https://img.shields.io/badge/-Faker.js-fa8072?logo=javascript&logoColor=white)                                |
+| ![chalk](https://img.shields.io/badge/-chalk-00ffff?logo=visual-studio-code&logoColor=white)     | ![Heroicons Vue](https://img.shields.io/badge/-Heroicons%20Vue-9CA3AF?logo=vue.js&logoColor=white)                    |
+| ![faker.js](https://img.shields.io/badge/-faker.js-556B2F?logo=javascript&logoColor=white)      | ![Gradient String](https://img.shields.io/badge/-Gradient%20String-d2691e?logo=npm&logoColor=white) |
+| ![pm2](https://img.shields.io/badge/-PM2-2c3e50?logo=node.js&logoColor=white)              | ![UUID](https://img.shields.io/badge/-UUID-800080?logo=npm&logoColor=white)                          |
+|                                                                                        | ![Day.js](https://img.shields.io/badge/-Day.js-f6bd14?logo=javascript&logoColor=white)                   |
 
 ## Getting Started
 
