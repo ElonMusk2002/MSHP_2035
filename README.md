@@ -2,6 +2,8 @@
 
 Welcome to the MSHP_2035 project, AloExpress! This project is a full-stack web application designed to be a shop platform. It utilizes a variety of tools and technologies in order to provide a seamless, modern shopping experience. 
 
+![Demo image](demo_image.jpg)
+
 ## Tech Stack
 
 In this project, we used a variety of technologies and tools to bring it to life. These tools are broken down into two categories: Backend and Frontend.
