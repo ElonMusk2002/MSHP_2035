@@ -77,4 +77,12 @@ Thanks for your interest in contributing to AloExpress!
 
 This project is licensed under the MIT License.
 
+## Support
+
+⭐️ If you find this project helpful, please consider leaving a star!
+
+[![Star Badge](https://img.shields.io/github/stars/ElonMusk2002/MSHP_2035?style=for-the-badge)](https://github.com/ElonMusk2002/MSHP_2035)
+
+🎉 Thank you for your support! 🎉
+
 [![SVG Banner](https://svg-banners.vercel.app/api?type=origin&text1=AloExpress%20MSHP_2035%20👀&text2=💖%20Open%20Source&width=800&height=400)](https://github.com/Akshay090/svg-banners)
