@@ -8,6 +8,7 @@ Welcome to the MSHP_2035 project, AloExpress! This project is a full-stack web a
 
 In this project, we used a variety of technologies and tools to bring it to life. These tools are broken down into two categories: Backend and Frontend.
 
+
 | Backend                                                                        | Frontend                                                            |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | ![Express.js](https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white) | ![Vue.js](https://img.shields.io/badge/-Vue.js-4fc08d?logo=vue.js&logoColor=white)                        |
@@ -23,6 +24,10 @@ In this project, we used a variety of technologies and tools to bring it to life
 | ![faker.js](https://img.shields.io/badge/-faker.js-556B2F?logo=javascript&logoColor=white)      | ![Gradient String](https://img.shields.io/badge/-Gradient%20String-d2691e?logo=npm&logoColor=white) |
 | ![pm2](https://img.shields.io/badge/-PM2-2c3e50?logo=node.js&logoColor=white)              | ![UUID](https://img.shields.io/badge/-UUID-800080?logo=npm&logoColor=white)                          |
 |                                                                                        | ![Day.js](https://img.shields.io/badge/-Day.js-f6bd14?logo=javascript&logoColor=white)                   |
+|                                                                                        | ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952b3?logo=bootstrap&logoColor=white)                   |
+|                                                                                        | ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38b2ac?logo=tailwind-css&logoColor=white)                   |
+
+
 
 ## Getting Started
 
