@@ -27,8 +27,8 @@ In this project, we used a variety of technologies and tools to bring it to life
 
 To run this project on your local machine, follow these simple steps:
 
-1. Clone the repository to your local machine using `git clone https://github.com/YOUR-USERNAME/MSHP_2035.git`
-2. Navigate to the backend folder with `cd MSHP_2035/backend`
+1. Clone the repository to your local machine using `git clone https://github.com/ElonMusk2002/MSHP_2035.git`
+2. Navigate to the backend folder with `cd backend`
 3. Install the necessary backend dependencies with `npm install`
 4. Begin the backend build process with `npm run build`
 5. Navigate to the frontend folder with `cd ../frontend`
@@ -39,7 +39,7 @@ To run this project on your local machine, follow these simple steps:
 
 ## Thank you!
 
-We'd like to extend a big thank you to our review, [REVIEWER NAME](https://www.github.com/REVIEWER NAME), for helping us with this project. 
+I'd like to extend a big thank you to [Rewive](https://github.com/Rewive), for helping me with this project. 
 
 ## License
 
