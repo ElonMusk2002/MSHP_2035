@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex background flex-col items-center">
     <div class="flex gap-4 my-4">
       <button class="bg-blue-500 text-white px-4 py-2 rounded" @click="generateProduct">
         Generate Product
@@ -74,6 +74,25 @@
       </div>
     </div>
   </div>
+  <!-- Working without backend -->
+  <!-- <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-16 justify-items-center">
+    <RouterLink
+      class="w-56 flex flex-col gap-2 bg-white rounded-lg shadow-lg p-4"
+      v-for="item in shop.forSale"
+      :to="`/item/${item.id}`"
+      :key="item.id"
+    >
+      <img
+        class="rounded-md bg-beige"
+        :src="item.photo"
+        alt="280 by 320 pixel placeholder"
+      />
+      <div class="flex justify-between">
+        <div class="text-gray-800 font-bold">{{ item.title }}</div>
+        <div class="text-green-500 font-bold">${{ item.price / 100 }}</div>
+      </div>
+    </RouterLink>
+  </div> -->
 </template>
 
 <script setup>
@@ -125,6 +144,7 @@ async function generateProduct() {
     console.log(err);
   }
 }
+
 async function deleteProduct(product) {
   try {
     await axios.delete(`http://localhost:3001/api/product/${product._id}`);
@@ -157,3 +177,11 @@ function openModal(product) {
   selectedProduct.value = product;
 }
 </script>
+
+<style>
+.background {
+  background-image: url('../assets/oooscillate.svg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}</style>

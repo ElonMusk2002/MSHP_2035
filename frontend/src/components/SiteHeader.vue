@@ -7,10 +7,9 @@
       <button class="flex items-center ml-4 text-white hover:text-gray-200" @click="goToCartPage">
         <span class="relative">
           <ShoppingBagIcon class="h-6 w-6" />
-          <span class="animate-ping absolute -top-1.5 -right-2 h-2 w-2 rounded-full bg-red-500 opacity-75"></span>
-          <span v-if="shop.cartQuantity > 0"
+          <span v-if="cartQuantity > 0"
             class="absolute -top-1 -right-1 h-4 w-4 rounded-full text-white font-bold text-sm flex items-center justify-center bg-red-500">{{
-              shop.cartQuantity }}</span>
+              cartQuantity }}</span>
         </span>
       </button>
       <button v-if="!userPhoto" class="flex items-center ml-4 text-white hover:text-gray-200" @click="loginWithGoogle">
@@ -28,13 +27,26 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { ShoppingBagIcon } from "@heroicons/vue/24/outline";
-import { useShopStore } from "../stores/shop";
 import { useRouter } from "vue-router";
 import { initializeApp } from "firebase/app";
+import axios from "axios";
 import { getAuth, GoogleAuthProvider, signInWithRedirect, signOut, onAuthStateChanged } from 'firebase/auth';
 
-const shop = useShopStore();
+const cartQuantity = ref(0);
 const router = useRouter();
+
+async function fetchCartQuantity() {
+  try {
+    const response = await axios.get("http://localhost:3001/api/cart/item");
+    cartQuantity.value = response.data.totalQuantity;
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+onMounted(() => {
+  fetchCartQuantity();
+});
 
 const firebaseConfig = {
   apiKey: "AIzaSyD93-VrHcnVjYCWeVUrACbOi79aY6ksvY0",
@@ -53,7 +65,7 @@ let userPhoto = ref('');
 let userName = ref('');
 
 const goToHomePage = () => {
-  router.push("/");
+  router.push("/shop");
 };
 
 const goToCartPage = () => {

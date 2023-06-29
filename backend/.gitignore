@@ -1,0 +1,39 @@
+# Editor-specific files
+.DS_Store
+.vscode/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/dist/
+
+# Node dependencies
+node_modules/
+
+# dotenv environment configurations
+.env
+.env.test
+.env*.local
+
+# Caching files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+
+# Grunt and Bower package manager
+.grunt
+bower_components/
+
+# npm and yarn cache
+.npm/
+.yarn/
+
+# ESLint cache
+.eslintcache
+
+# Stylelint cache
+.stylelintcache
