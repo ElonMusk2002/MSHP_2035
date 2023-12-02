@@ -1,0 +1,39 @@
+{
+  "name": "AloExpress",
+  "version": "2.0.0",
+  "description": "Demo of an online store and shopping cart built with Vue 3.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.13",
+    "aos": "^2.3.4",
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.8",
+    "dotenv": "^16.3.1",
+    "faker": "^6.6.6",
+    "firebase": "^9.23.0",
+    "pinia": "^2.0.28",
+    "vue": "^3.2.45",
+    "vue-confetti": "^2.3.0",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0"
+  }
+}
